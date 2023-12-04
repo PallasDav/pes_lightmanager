@@ -1,6 +1,6 @@
 # PES Lightmanager for PES 2020 / PES 2021
 
-Version 0.2.0a
+Version 0.2.0b
 
 ## Installation
 
