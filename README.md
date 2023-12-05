@@ -1,6 +1,6 @@
 # PES Lightmanager for PES 2020 / PES 2021
 
-Version 0.2.0b
+Version 0.2.0d
 
 ## Installation
 
@@ -9,6 +9,12 @@ Install this plugin to Blender by going to Edit > Preferences > Addons > Install
 And then activating the plugin:
 
 ![alt text](https://i.imgur.com/0Om8Kqk.png)
+
+The plugin will attempt to install a package via the "pip" command to your Blender which are required for export. If you encounter issues after trying to install the AddOn, close blender.exe and reopen as Administrator and that should fix your issue.
+
+```python
+pip install Pillow
+```
 
 ## Usage
 
@@ -24,8 +30,17 @@ And then activating the plugin:
 
 ![alt text](https://i.imgur.com/GrhL5zV.png)
 
-## Duplicating a SpotLight
+## Tools
 
-Do not use SHIFT + D to duplicate a spotlight. Instead click on "Add SpotLight" and tick all the checkboxes like so:
+You can find this Blender AddOn equipped with many useful tools such as:
+* **Bulk Edit SpotLights:** Blender does not allow you to change the properties of multiple selected SpotLights. Want to change the brightness of all your lights? Now you can with this tool!
+* **Mirror Tool:** If your stadium is symmetric you can use this tool to save a lot of time by simply mirroring your SpotLights to the other side of the stadium! ***(Use the Tool "Fix SpotLights" if you encounter duplicate SpotLights like .001, .002, .003)***
+* **Fix SpotLights:** This tool will attempt reassign SpotIDs, useful tool if your exports are not working or if you already have existing SpotLights added before using this AddOn.
 
-![alt text](https://i.imgur.com/aPG3Ki8.png)
+  
+* ***(NEW)*** **Export Dynamic Objects:** Add Flags which are animated to be waved around in-game or add trees with windy leaves to give your exteriors a more lively look!
+
+#### Tools can be found here:
+
+![image](https://github.com/PallasDav/pes_lightmanager/assets/152204413/e0693d17-34aa-4b1f-ba65-8c34f0e90ff7)
+
